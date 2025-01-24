@@ -9,7 +9,8 @@ namespace ddsad
     internal class Program
     {
         static void Main(string[] args)
-        {
+        { 
+            #Задаем две переменны для ввода данных и одну для вывода
             Console.WriteLine("Введите первое число (a):");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -21,6 +22,7 @@ namespace ddsad
 
 
         }
+#Задаем переменную Proverka 
         static string Proverka(int a, int b)
         {
             if (b % a == 0 || a % b == 0)
